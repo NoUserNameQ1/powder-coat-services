@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consolidated Coating Company - Powder Coat Applications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ac1f3b, #5e5f61);
+            color: white;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            background: rgba(34, 34, 36, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(172, 31, 59, 0.7);
+            margin-top: 20px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+        .header img {
+            height: 160px; /* Increased logo size */
+        }
+        .header h1 {
+            margin-top: 10px;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #a8acb1 0%, #727778 25%, #3f4042 50%, #5b5c5e 75%, #a8acb1 100%);
+            background-size: 300% 100%;
+            background-position: center;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+            display: inline-block;
+            animation: shine 3s linear infinite alternate;
+        }
+
+        @keyframes shine {
+            0% { background-position: left; }
+            100% { background-position: right; }
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            background: url('Spirals-magic.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            filter: brightness(1.2);
+        }
+        .hero-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-text {
+            position: relative;
+            z-index: 10;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: #ac1f3b;
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        p, li {
+            color: white;
+        }
+
+        .services {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        /* Call to Action */
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #ac1f3b;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #8b1a2c;
+        }
+
+        /* Contact Info */
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .contact a {
+            color: #ac1f3b;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .contact .phone {
+            font-size: 22px;
+            color: #ac1f3b;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #ccc;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Logo -->
+    <header class="header">
+        <img src="High_Res_Circle_CCC_Logo-removebg (1).png" alt="Consolidated Coating Company Logo">
+        <h1>Consolidated Coating Company</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">Powder Coat Application Services</div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section class="main-content">
+            <p>At CCC, we specialize in high-quality powder coat application services for industrial applications.</p>
+
+            <h2>Capabilities:</h2>
+            <ul class="services">
+                <li>407 feet of conveyor processing including 5-stage wash system with zinc phosphate pretreatment</li>
+                <li>Stock colors</li>
+                <li>Custom color matching using RAL and Pantone colors</li>
+                <li>Durable, textured and smooth finishes</li>
+                <li>Large and small volumes</li>
+                <li>Huge 10'x20' batch-oven processing</li>
+                <li>Strict adherence to environmental regulations</li>
+                <li>Expertise in handling complex metal parts</li>
+            </ul>
+
+            <!-- Call to Action Button -->
+            <div class="cta">
+                <a href="mailto:david@consolidatedcoating.com">Request A Quote</a>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact">
+                <p>Contact us today to discuss your powder coat application needs!</p>
+                <a href="mailto:david@consolidatedcoating.com">david@consolidatedcoating.com</a>
+                <p class="phone">(508) 966-4800</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Consolidated Coating Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
